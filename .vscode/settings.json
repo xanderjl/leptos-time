@@ -1,0 +1,14 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.rs$",
+        "cmd": "leptosfmt ${file}"
+      }
+    ]
+  },
+  "rust-analyzer.linkedProjects": [
+    "./Cargo.toml",
+    "./Cargo.toml"
+  ]
+}
