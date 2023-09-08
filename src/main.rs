@@ -1,6 +1,6 @@
 mod components;
+use components::*;
 use leptos::*;
-use components::button::Button;
 
 #[component]
 fn App(cx: Scope) -> impl IntoView {
