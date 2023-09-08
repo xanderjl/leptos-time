@@ -1,7 +1,6 @@
 mod button;
 use leptos::*;
-use crate::button::button::Button;
-
+use button::*;
 
 #[component]
 fn App(cx: Scope) -> impl IntoView {
